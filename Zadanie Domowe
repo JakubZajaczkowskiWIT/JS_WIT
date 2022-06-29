@@ -1,0 +1,29 @@
+//1)
+
+function validate(force, acceleration, mass) {
+  return mass * acceleration == force;   
+}
+
+console.log(validate(100, 10, 10))
+console.log(validate(110, 10, 10))
+
+
+//2) 
+document.getElementById("button1").addEventListener("click", function(){ console.log("Clicked"); })
+
+
+//3)
+var liczby = [1,2,3,4,5];
+
+var dodawanie = liczby.map(function(x) {
+    return x + 1;
+});
+
+function wieksze_niz(y) {
+  return y >= 3;
+}
+
+var filtered = dodawanie.filter(wieksze_niz);
+console.log(filtered)
+
+//4)
