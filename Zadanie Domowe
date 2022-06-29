@@ -19,8 +19,11 @@ var dodawanie = liczby.map(function(x) {
     return x + 1;
 });
 
-var filtered = dodawanie.filter(function (y) {
+var filtered = dodawanie.filter(function(y) {
     return y >= 3;
-    });
+});
 console.log(filtered)
+
+
+
 //4)
